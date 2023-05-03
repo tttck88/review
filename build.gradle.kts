@@ -23,6 +23,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.12.3")
     implementation("jakarta.json:jakarta.json-api:2.0.1")
+    implementation ("org.springframework.boot:spring-boot-starter-data-jpa")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.testcontainers:elasticsearch:1.16.3")
